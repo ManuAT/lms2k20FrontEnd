@@ -12,7 +12,17 @@ export class AppComponent implements OnInit{
   }
   ngOnInit(){
     this.pageNumber=this.common.pageNumber
+    // console.log("hello");
     
+  //   this.common.getClue(1).subscribe(result=>{
+  // console.log("clueDetails",result);
+  
+  //   });
+
+  //   this.common.getInfo(1).subscribe(result=>{
+  //     console.log("infoDetails",result);
+      
+  //       });
   }
   pageNumber;
   registered=false;
